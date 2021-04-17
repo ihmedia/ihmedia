@@ -122,7 +122,7 @@ hold on
     %plot(magents','LineWidth',3,'Color','magenta')
     set(gcf,'position',[700,250,400,300])
     set(gcf,'PaperOrientation','landscape');
-    exportgraphics(gcf,'../figures/nomedia_objective_arrogant.png')
+    %exportgraphics(gcf,'../figures/nomedia_objective_arrogant.png')
 hold off
 
 
@@ -139,7 +139,7 @@ hold on
     findpeaks(a(:,20)','MinPeakHeight',mph,'MinPeakDistance',mpd)
     set(gcf,'position',[700,250,315,300])
     set(gcf,'PaperOrientation','landscape');
-    exportgraphics(gcf,'../figures/nomedia_objective_arrogant_kdensity1.png')
+    %exportgraphics(gcf,'../figures/nomedia_objective_arrogant_kdensity1.png')
 hold off
 
 
@@ -156,7 +156,7 @@ hold on
     findpeaks(a(:,60)','MinPeakHeight',mph,'MinPeakDistance',mpd)
     set(gcf,'position',[700,250,315,300])
     set(gcf,'PaperOrientation','landscape');
-    exportgraphics(gcf,'../figures/nomedia_objective_arrogant_kdensity2.png')
+    %exportgraphics(gcf,'../figures/nomedia_objective_arrogant_kdensity2.png')
 hold off
 
 
@@ -174,5 +174,5 @@ hold on
     
     set(gcf,'position',[700,250,315,300])
     set(gcf,'PaperOrientation','landscape');
-    exportgraphics(gcf,'../figures/nomedia_objective_arrogant_kdensity3.png')
+    %exportgraphics(gcf,'../figures/nomedia_objective_arrogant_kdensity3.png')
 hold off

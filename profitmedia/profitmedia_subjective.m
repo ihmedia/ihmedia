@@ -130,7 +130,7 @@ merger([T:T+2]) = 1;
 
 magents(magents==0) = NaN;
 
-[y,z] = max(diff(magents(2,:)))
+[y,z] = max(diff(magents(2,:)));
 magents(2,z) = NaN;
 magents(2,z-1) = magents(2,z);
 magents(3,z+1) = magents(2,z+1);
@@ -150,6 +150,6 @@ hold on
     
     set(gcf,'position',[700,250,400,300])
     set(gcf,'PaperOrientation','landscape');
-    exportgraphics(gcf,'../figures/profitmedia_subjective_humble.png')
+    %exportgraphics(gcf,'../figures/profitmedia_subjective_humble.png')
 hold off
 

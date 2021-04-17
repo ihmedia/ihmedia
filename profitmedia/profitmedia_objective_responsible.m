@@ -163,6 +163,6 @@ hold on
     
     set(gcf,'position',[700,250,400,300])
     set(gcf,'PaperOrientation','landscape');
-    exportgraphics(gcf,'../figures/profitmedia_objective_responsible.png')
+    %exportgraphics(gcf,'../figures/profitmedia_objective_responsible.png')
 hold off
 

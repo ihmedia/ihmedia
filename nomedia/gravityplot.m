@@ -19,5 +19,5 @@ hold on
 
     set(gcf,'position',[700,250,600,300])
     set(gcf,'PaperOrientation','landscape');
-    exportgraphics(gcf,'../figures/gravityplot.png')
+    %exportgraphics(gcf,'../figures/gravityplot.png')
 hold off

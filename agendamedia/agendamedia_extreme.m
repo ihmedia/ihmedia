@@ -127,6 +127,6 @@ hold on
     
     set(gcf,'position',[700,250,400,300])
     set(gcf,'PaperOrientation','landscape');
-    exportgraphics(gcf,'../figures/agendamedia_extreme.png')
+    %exportgraphics(gcf,'../figures/agendamedia_extreme.png')
 hold off
 

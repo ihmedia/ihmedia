@@ -175,5 +175,5 @@ hold on
     
 	set(gcf,'position',[700,250,400,300])
     set(gcf,'PaperOrientation','landscape');
-    exportgraphics(gcf,'../figures/nomedia_objective_arrogant_sims.png')
+    %exportgraphics(gcf,'../figures/nomedia_objective_arrogant_sims.png')
 hold off
