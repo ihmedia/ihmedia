@@ -105,27 +105,7 @@ parfor j = 1 : sims  + extra
         d = d + (d == 5000);
         numtribes(t) = length(b);
                  
-%         if numtribes(t) > 4 && numtribes(t-1) == 3
-%             numtribes = [];   
-%             disp(['Simulation ' num2str(j),' is broken!'])
-%             broken = 1;
-%             continue
-%         end
-%         
-%         if numtribes(t) > 3 && numtribes(t-1) == 2
-%             numtribes = [];   
-%             disp(['Simulation ' num2str(j),' is broken!'])
-%             broken = 1;
-%             continue
-%         end
-%          
-%         if numtribes(t) > 2 && numtribes(t-1) == 1
-%             numtribes = [];   
-%             disp(['Simulation ' num2str(j),' is broken!'])
-%             broken = 1;
-%             continue
-%         end
-%         
+      
         if numtribes(t) > 1 && numtribes(t-1) == 1
             numtribes = [];   
             disp(['Simulation ' num2str(j),' is broken!'])
