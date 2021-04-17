@@ -21,7 +21,6 @@ epsilon = sigma*randn(N,T);
 
 tribes = zeros(3,T);
 
-%agents(:,1) = trnd(7,N,1);
 rng(r)
 agents(:,1) = unifrnd(-1,1,N,1);
 
