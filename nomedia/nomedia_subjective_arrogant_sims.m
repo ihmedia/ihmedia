@@ -37,7 +37,6 @@ parfor j = 1 : sims + extra
        
     broken = 0;
     
-    %agents(:,1) = trnd(7,N,1);
     agents(:,1) = unifrnd(-1,1,N,1);
     magents(:,[1:T]) = NaN(M,T);
 
