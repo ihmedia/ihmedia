@@ -67,13 +67,7 @@ tbar = t;
 for t = tbar + 1 : T
     for n = 1 : N     
         magents([1:3],t) = tribes(:,t-1);
-        magents(4,t) = 0 + nu(t);
-
-%         if nnz(tribes(:,t-1)) == 1
-%             magents(4,t) = 0 + nu(t);
-%         else
-%             magents(4,t) = NaN;
-%         end        
+        magents(4,t) = 0 + nu(t);      
 
         %gravity equation
         gravweights(:,n,t) = (1 ./ ((agents(:,t) - agents(n,t)).^2 + s^2 ).^alpha/2);
